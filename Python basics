@@ -1,0 +1,40 @@
+Python 3.7.2
+
+Two modes to execute program:
+1)interactive mode programming
+    #directly executing in terminal and get output in terminal itself
+2)Script mode programming
+   #create a program in notepad. execute that notepad in terminal to get output alone in terminal
+   
+ Python is a case sensitive programming language. Thus, Manpower and manpower are two different identifiers in Python.
+ 
+ Class names start with an uppercase letter. All other identifiers start with a lowercase letter.
+
+>>> print ("hello,python")
+hello,python
+
+
+Lines and indentation:
+
+print ("hai")
+a=10;
+b=20;
+if (a>b):
+	print ("true")
+else:
+	print ("false")
+
+
+Quotation in python:
+
+Python supports single , double and triple quotes.
+' '  ,  "  " , """ """   or  '''  '''
+
+
+single = 'hello';
+double = "execute the python program"
+triple = """ The way Python scripts are run on Windows versus Unix based operating ... Run a Python script under Windows with the Command Prompt."""
+
+print (single);
+print (double);
+print (triple);
