@@ -39,3 +39,11 @@ print (single);
 print (double);
 print (triple);
 
+
+
+To get input from user:
+
+
+print("Enter your name:")
+a=input()
+print (a);
