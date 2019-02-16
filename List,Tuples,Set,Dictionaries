@@ -4,6 +4,8 @@ A list contains items separated by commas and enclosed within square brackets ([
 To some extent, lists are similar to arrays in C. 
 One difference between them is that all the items belonging to a list can be of different data type.
 
+List is a collection which is ordered and changeable. Allows duplicate members.
+
 The values stored in a list can be accessed using the slice operator ([ ] and [:]) with indexes starting at 0 in the beginning of the list and working their way to end -1. 
 The plus (+) sign is the list concatenation operator, and the asterisk (*) is the repetition operator.
 
@@ -23,3 +25,170 @@ The plus (+) sign is the list concatenation operator, and the asterisk (*) is th
 [1111111111, 's', 45.78907654, 10.2, 'python']
 >>> print(b * 2)
 ['hello', 10.2, 'python', 'hello', 10.2, 'python']
+
+
+Updating lists:
+Update single or multiple elements of lists by giving the slice on the left-hand side of the assignment operator, 
+and can add to elements in a list with the append() method.
+
+>>> a=[2000,"hello"]
+>>> print (a[0])
+2000
+>>> print (a[1])
+hello
+>>> print (a[0:2])
+[2000, 'hello']
+>>> a[0]=5000
+>>> print (a[0:2])
+[5000, 'hello']
+
+
+Delete List Elements:
+To remove a list element, you can use either the del statement if you know exactly which element(s) you are deleting or 
+the remove() method if you do not know.
+
+>>> a=[2000,"hello"]
+>>> print(a[0:2])
+[2000, 'hello']
+>>> del a[0]
+>>> print(a[0:2])
+['hello']
+
+
+Loop Through a List:
+a=[5000,"python","hello",56.78,7.88888]
+for x in a:
+	print(x)
+  
+output:
+5000
+python
+hello
+56.78
+7.88888
+
+Check if Item Exists:
+To determine if a specified item is present in a list use the in keyword
+a=[5000,"python","hello",56.78,7.88888]
+if 5000 in a:
+	print("Yes")
+else:
+	print("No")
+
+Output:
+Yes
+
+
+List Length:
+Displays the count
+
+a=[5000,"python","hello",56.78,7.88888]
+print(len(a))
+
+output:
+5
+
+append() method:
+//Add Items
+To add an item to the end of the list, use the append() method
+
+a=[5000,"python","hello",56.78,7.88888]
+a.append("checking")
+print(a)
+
+output:
+[5000, 'python', 'hello', 56.78, 7.88888, 'checking']
+
+To add an item at the specified index, use the insert() method:
+
+a=[5000,"python","hello",56.78,7.88888]
+a.insert(1,"heypython")
+print(a)
+
+output:
+[5000, 'heypython', 'python', 'hello', 56.78, 7.88888]
+
+
+Remove Item:
+Several methods to remove items from a list. removes specified item
+
+a=[5000,"python","hello",56.78,7.88888]
+a.remove("python")
+a.remove(5000)
+print(a)
+
+output:
+['hello', 56.78, 7.88888]
+
+pop() method:
+The pop() method removes the specified index, (or the last item if index is not specified)
+
+a=[5000,"python","hello",56.78,7.88888]
+a.pop(2)
+print(a)
+
+output:
+[5000, 'python', 56.78, 7.88888]
+
+
+del keyword:
+The del keyword removes the specified index:
+The del keyword can also delete the list completely
+
+
+a=[5000,"python","hello",56.78,7.88888]
+del a[0]
+print(a)
+
+output:
+['python', 'hello', 56.78, 7.88888]
+
+clear() method:
+The clear() method empties the list
+
+a=[5000,"python","hello",56.78,7.88888]
+a.clear()
+print(a)
+
+output:
+[]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
