@@ -259,6 +259,8 @@ else:
 	print("No")
 
 
+Change items:
+once a set is created , not supposed to change . but we can add or update items.
 
 
 
