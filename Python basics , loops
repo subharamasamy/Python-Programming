@@ -238,9 +238,78 @@ Splits the string into substrings
 ['hai', 'hello']
 
 
+Loops:
+Python Conditions and If statements
+Python supports the usual logical conditions from mathematics:
+Equals: a == b
+Not Equals: a != b
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
 
+Eg:
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
 
+Python Loops
+Python has two primitive loop commands:
+while loops
+for loops
 
+The break Statement
+With the break statement we can stop the loop even if the while condition is true
+
+The continue Statement
+With the continue statement we can stop the current iteration, and continue with the next
+
+Loopong through a string:
+for a in "Vesta":
+	print(a)
+
+o/p:
+V
+e
+s
+t
+a
+
+The Range() Function:
+
+The range() function returns a sequence of numbers, starting from 0 by default
+
+for a in range(5):
+	print(a)
+
+for b in range(2,6):
+	print(b)
+
+for c in range(10,20,2):
+	print(c)
+
+o/p:
+0
+1
+2
+3
+4
+
+2
+3
+4
+5
+
+10
+12
+14
+16
+18
 
 
 
