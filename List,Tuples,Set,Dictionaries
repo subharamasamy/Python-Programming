@@ -350,9 +350,74 @@ Dictionaries:
 A dictionary is a collection which is unordered, changeable and indexed. 
 In Python dictionaries are written with curly brackets, and they have keys and values.
 
+a={"marks":123,"rank":23,"address":"chennai"}
+print (a)
+
+o/p:
+{'marks': 123, 'rank': 23, 'address': 'chennai'} 
+
+Accessing items by refering with key name:
+
+a={"marks":123,"rank":23,"address":"chennai"}
+b=a["marks"],a["rank"]
+print (b)
+
+o/p:
+(123, 23)
+
+->Change values
+->Dictionary length
+->Adding items
+->Removing items - pop() method removes the items - popitem() method removes last inserted items
+->delete items - using del keyword to delete
+
+a={"marks":123,"rank":23,"address":"chennai"}
+a["marks"]=321
+print (a)
+print(len(a))
+a["num"]=43253
+print (a)
+print(len(a))
+a.pop("rank")
+print (a)
+print(len(a))
+del a["num"]
+print (a)
+del a
+print(a)
+
+o/p:
+{'marks': 321, 'rank': 23, 'address': 'chennai'}
+3
+{'marks': 321, 'rank': 23, 'address': 'chennai', 'num': 43253}
+4
+{'marks': 321, 'address': 'chennai', 'num': 43253}
+3
+{'marks': 321, 'address': 'chennai'}
+Traceback (most recent call last):
+  File "dict.txt", line 14, in <module>
+    print(a)
+NameError: name 'a' is not defined
 
 
 
+-> clear method
+a={"marks":123,"rank":23,"address":"chennai"}
+a.clear()
+print (a)
+
+o/p:
+{}
+
+-> Copy a dictionary
+a={"marks":123,"rank":23,"address":"chennai"}
+b=a.copy()
+print (b)
+
+o/p:
+{'marks': 123, 'rank': 23, 'address': 'chennai'}
+
+-> loop through a dictionary
 
 
 
