@@ -418,6 +418,48 @@ o/p:
 {'marks': 123, 'rank': 23, 'address': 'chennai'}
 
 -> loop through a dictionary
+Print all key names in the dictionary, one by one:
+a={"marks":123,"rank":23,"address":"chennai"}
+for list in a:
+	print(list)
+	
+o/p:
+marks
+rank
+address
+
+Print all values in the dictionary, one by one:
+
+a={"marks":123,"rank":23,"address":"chennai"}
+for list in a:
+	print(a[list])
+	
+o/p:
+123
+23
+chennai
+
+Loop through both keys and values, by using the items() function:
+
+a={"marks":123,"rank":23,"address":"chennai"}
+for key,value in a.items():
+	print(key,value)
+
+o/p:
+marks 123
+rank 23
+address chennai
+
+
+Check if Key exists:
+a={"marks":123,"rank":23,"address":"chennai"}
+if "marks" in a:
+	print("yes")
+else:
+	print("no")
+	
+o/p:
+yes
 
 
 
