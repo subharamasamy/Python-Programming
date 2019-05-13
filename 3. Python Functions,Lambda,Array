@@ -1,7 +1,11 @@
 
 Functions:
 A function is a block of code which only runs when it is called. Supposed to pass data known as parameters, into a function.
-A function can return data as a result as well as used defined functions.
+A function can return data as a result as well as used defined functions(Supposed to create by own functions)
+
+How to define a function:
+1. Function blockbegins with keyword def and followed by function name and parantheses.
+2. Code block within function 
 
 
 
