@@ -5,7 +5,28 @@ A function can return data as a result as well as used defined functions(Suppose
 
 How to define a function:
 1. Function blockbegins with keyword def and followed by function name and parantheses.
-2. Code block within function 
+2. Code block within function starts with a colon(:)
+
+Basic Example:
+
+def testing(str):
+	print (str);
+def simple(addr,age):
+	print(addr,age);
+def add(a,b):
+	print(a+b);
+
+testing("hai hello")
+testing("Welcome testers")
+simple("west chennai",20)
+add(2,3)
+
+O/P:
+hai hello
+Welcome testers
+west chennai 20
+5
+
 
 
 
