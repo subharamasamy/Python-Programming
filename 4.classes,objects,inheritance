@@ -1,1 +1,86 @@
+Classes and Objects:
+
+class test:    //class classname
+	x=5
+
+a=test()       //object creation, a is object 
+store = a.x   
+print(store)
+
+o/p:
+5
+
+The __init__() Function: class constructor or initialization method
+built-in __init__() function.
+All classes have a function called __init__(), which is always executed when the class is being initiated.
+Use the __init__() function to assign values to object properties, or other operations 
+that are necessary to do when the object is being created.
+
+
+You declare other class methods like normal functions with the exception that the first argument to each method is self. 
+Python adds the self argument to the list for you; you do not need to include it when you call the methods.
+
+class details:
+	def __init__(self,age,name):
+		self.age=name;
+		self.name=age;
+
+a=details("25" , "subha")
+
+print(a.age)
+print(a.name)
+
+
+o/p:
+subha
+25
+
+Note: The __init__() function is called automatically every time the class is being used to create a new object.
+
+class details:
+	def __init__(self,age,name):
+		self.age=name;
+		self.name=age;
+	def checking(abc):
+		print("hai hello" + abc.age)
+
+a=details("25" , "subha")
+
+print(a.age)
+print(a.name)
+
+a.checking()
+
+
+o/p:
+subha
+25
+hai hellosubha
+
+Delete object properties:
+
+class details:
+	def __init__(self,age,name):
+		self.age=name;
+		self.name=age;
+	def checking(abc):
+		print("hai hello" + abc.age)
+
+a=details("25" , "subha")
+
+print(a.age)
+print(a.name)
+
+a.checking()
+del a
+a.checking()
+
+o/p:
+subha
+25
+hai hellosubha
+Traceback (most recent call last):
+  File "list.txt", line 15, in <module>
+    a.checking()
+NameError: name 'a' is not defined
 
