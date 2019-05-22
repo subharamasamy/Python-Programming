@@ -140,4 +140,7 @@ Inheritance allows us to define a class that inherits all the methods and proper
 Parent class is the class being inherited from, also called base class.
 Child class is the class that inherits from another class, also called derived class
 
+Types of inheritance:
+1. Multiple inheritance - class 1 <- class 2 <- class 3
+2. Multilevel inheritance - multiple base class , one derived class
 
