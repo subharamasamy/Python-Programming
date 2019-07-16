@@ -1,5 +1,3 @@
-List:
-
 A list contains items separated by commas and enclosed within square brackets ([]). 
 To some extent, lists are similar to arrays in C. 
 One difference between them is that all the items belonging to a list can be of different data type.
